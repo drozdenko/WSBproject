@@ -1,0 +1,138 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #B6D4F6;
+    color: #fff;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+}
+.navbar-brand {
+    float: left;
+    min-height: 55px;
+    max-height: 65px;
+    padding: 0 15px 15px;
+
+}
+.navbar-brand img {
+    min-height: 55px;
+    max-height: 100%;
+}
+
+.footer-brand {
+    min-height: 55px;
+    max-height: 100px;
+    padding: 0 15px 5px;
+}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+    color: #4346A1;
+    background-color: #B6D4F6;
+}
+.navbar-inverse .navbar-nav li a {
+    color: #fff;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+.project-btn {
+    font-size: 18px;
+    color: white;
+    padding: 12px 22px;
+    background-color: #B6D4F6;
+    border: 2px solid #fff
+
+}
+.btn:hover {
+    background-color: #4346A1;
+    color: #fff;
+}
+footer {
+    width: 100%;
+    background-color: #B6D4F6;
+    padding: 5%;
+    color: #fff;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+.fa:hover {
+    color: #4346A1;
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+    .ski-map {
+        max width: 150px;
+    }
+}
+.container {
+    margin: 4% auto;
+}
+.ski-map {
+    max-width: 200px;
+    margin: 1% auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px 10px 30px 10px
+}
+h2 {
+    font-size: 1.8em;
+    color: #4346A1;
+    padding-bottom: 30px;
+}
+.maps-header:hover {
+    text-decoration: none;
+}
+h4 {
+    color: #4346A1;
+}
+p {
+    color: #4346A1;
+}
+.maps {
+    background-color: #B6D4F6;
+    padding: 30px;
+    width: 100%;
+}
+
+
+/* contact form styles */
+
+
+.contact-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.contactForm {
+    /* background-color:  #8EB3C6; */
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+label {
+    color: #798287;
+    padding: 3px;
+}
+.btn-contact {
+    color: white;
+    background-color: #E8DFE6;
+    border: none;
+    max-width: 120px;
+    width: 120px;
+    text-align: center;
+    padding: 0;
+
+}
+.btn-contact:hover {
+    background-color: #45BD99;
+    border: none;
+}
